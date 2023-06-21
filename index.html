@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="profile-container">
+    <img class="profile-image" src="https://media.licdn.com/dms/image/D4D03AQGcXBmv8scJeA/profile-displayphoto-shrink_400_400/0/1686419030736?e=1692230400&v=beta&t=cdIZF4j_duIFDkujndHC6LX1oqnFgcEh0vL2lTqHuw4" alt="Profile Image">
+  </div>
+  
+  <div class="about">
+    <p style="font-size: 20px; font-weight: bold; margin-bottom: 10px;">Hello everyone!</p>
+    <p style="font-size: 16px;">
+      I'm Shaked Ben Guy, a software engineering student and AI researcher. I invite you to connect with me on LinkedIn, read my articles on Medium, and explore my projects on GitHub.
+    </p>
+  </div>
+
+  <div class="menu">
+    <div class="menu-item">
+      <a class="menu-link" href="https://www.linkedin.com/">LinkedIn</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="https://twitter.com/">Medium</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="https://github.com/shaked32003">GitHub</a>
+    </div>
+  </div>
+
+  <div class="share-button" onclick="togglePrompt()">•••</div>
+
+  <div class="prompt-container" id="promptContainer">
+    <div class="prompt-content">
+      Share this page<br><br>
+      <input type="text" id="linkInput" style="width: 100%; padding: 1px; box-sizing: border-box; border: 1px solid #000; width: 165px; padding: 1px;"><br><br>
+      <button class="copy-button">Copy</button>
+      <button class="close-button" onclick="togglePrompt()">&times;</button>
+    </div>
+  </div>
+
+  <footer>
+    <p class="copyright">
+      All rights reserved &copy; 2023 Shaked Ben Guy
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://www.bbntimes.com/images/articles/global-economy/The_Coming_AI_Singularity_in_2050.jpg');
+    background-size: cover;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    padding: 10vw;
+    margin: 0;
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .profile-container {
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1.5px solid #345;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6vw;
+    margin-top: 60vh;
+  }
+  
+  .menu-item {
+    margin-bottom: 20vh;
+  }
+  
+  .menu-link {
+    color: #FFF;
+    text-decoration: none;
+    border: 1px ridge #FFF;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 1vh 1vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 1vw 1vw 0.5vw rgba(0, 0, 0, 0.63);
+    border-radius: 1vw;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-link:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .about {
+    position: absolute;
+    border: 1px solid #000;
+    top: 2vh;
+    left: 14vw;
+    color: #FFF;
+    text-align: left;
+    width: 83vw;
+    line-height: 1.14;
+    padding: 0.5vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 1vw;
+  }
+  
+  .share-button {
+    position: fixed;
+    top: 3vh;
+    right: 3vw;
+    z-index: 999;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 1vw;
+    font-size: 1vw;
+    box-shadow: 0.1vw 0.2vw 0.2vw rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .share-button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .prompt-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+  }
+  
+  .prompt-container.show {
+    display: block;
+  }
+  
+  .prompt-content {
+    font-size: 15px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 1;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    left: 10px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 16px;
+  }
+  
+  .copy-button {
+    background-color: #FFF;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .copy-button:hover {
+    background-color: #333;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: -6px;
+    right: 10px;
+  }
+  
+  .footer p {
+    font-size: 12px;
+    color: #FFF;
+    text-align: right;
+  }
+  
+  .footer .current-year {
+    font-weight: bold;
+  }
