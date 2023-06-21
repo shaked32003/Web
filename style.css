@@ -49,11 +49,12 @@ body {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 4.5vw; /* Increased font-size */
-    padding: 2vh 4vw; /* Increased padding */
+    padding: 1.5vh 4vw; /* Increased padding */
     width: 60vw; /* Adjusted width */
     background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 3vw 3vw 2.5vw rgba(0, 0, 0, 0.63);
+    box-shadow: 3.5vw 3vw 2.5vw rgba(0, 0, 0, 0.63);
     border-radius: 2vw;
+    bottom: 6px;
     transition: background-color 0.3s ease;
   }
   
