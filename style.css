@@ -3,7 +3,7 @@ body {
     text-align: center;
     background-image: url('https://www.bbntimes.com/images/articles/global-economy/The_Coming_AI_Singularity_in_2050.jpg');
     background-size: cover;
-    background-position: center 10%;
+    background-position: 60% 10%;
     background-repeat: no-repeat;
     padding: 10vw;
     margin: 0;
@@ -17,8 +17,8 @@ body {
     position: absolute;
     top: 2vh;
     left: 1vw;
-    width: 12vw;
-    height: 12vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 100%;
     overflow: hidden;
     border: 1.5px solid #345;
@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 6vw;
+    gap: 12vw;
     margin-top: 60vh;
   }
   
@@ -48,11 +48,12 @@ body {
     border: 1px ridge #FFF;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 2vw;
-    padding: 1vh 1vw;
+    font-size: 2.5vw; /* Increased font-size */
+    padding: 1.5vh 1.5vw; /* Increased padding */
+    width: 60vw; /* Adjusted width */
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 1vw 1vw 0.5vw rgba(0, 0, 0, 0.63);
-    border-radius: 1vw;
+    border-radius: 2vw;
     transition: background-color 0.3s ease;
   }
   
@@ -64,14 +65,14 @@ body {
     position: absolute;
     border: 1px solid #000;
     top: 2vh;
-    left: 14vw;
+    left: 22vw;
     color: #FFF;
     text-align: left;
-    width: 83vw;
+    width: 75vw;
     line-height: 1.14;
-    padding: 0.5vh;
+    padding: 8vh 1vw;
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 1vw;
+    border-radius: 4vw;
   }
   
   .share-button {
@@ -83,9 +84,9 @@ body {
     color: rgba(0, 0, 0, 0.8);
     border: none;
     border-radius: 50%;
-    width: 1.5vw;
-    height: 1vw;
-    font-size: 1vw;
+    width: 3.5vw;
+    height: 2vw;
+    font-size: 2vw;
     box-shadow: 0.1vw 0.2vw 0.2vw rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
@@ -117,7 +118,7 @@ body {
     font-size: 15px;
     color: #FFF;
     font-weight: bold;
-    padding: 5px;
+    padding: 5vw;
     line-height: 1;
   }
   
