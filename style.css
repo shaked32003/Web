@@ -17,8 +17,8 @@ body {
     position: absolute;
     top: 2vh;
     left: 1vw;
-    width: 22vw;
-    height: 22vw;
+    width: 25vw;
+    height: 25vw;
     border-radius: 100%;
     overflow: hidden;
     border: 1.5px solid #345;
@@ -66,10 +66,10 @@ body {
     position: absolute;
     border: 1px solid #000;
     top: 2vh;
-    left: 25vw;
+    left: 28vw;
     color: #FFF;
     text-align: left;
-    width: 72vw;
+    width: 69vw;
     line-height: 1.3;
     padding: 2vh 1vw;
     background-color: rgba(0, 0, 0, 0.7);
