@@ -79,7 +79,7 @@ body {
   .share-button {
     position: fixed;
     top: 4vh;
-    right: 3vw;
+    right: 4vw;
     z-index: 999;
     background-color: #fff;
     color: rgba(0, 0, 0, 0.8);
