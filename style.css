@@ -34,8 +34,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 7vw;
-    margin-top: 60vh;
+    gap: 6vw;
+    margin-top: 63vh;
+    
   }
   
   .menu-item {
@@ -50,7 +51,7 @@ body {
     font-weight: bold;
     font-size: 5vw; /* Increased font-size */
     padding: 2vh 4vw; /* Increased padding */
-    width: 60vw; /* Adjusted width */
+    width: 50vw; /* Adjusted width */
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 3.5vw 3vw 2.5vw rgba(0, 0, 0, 0.63);
     border-radius: 2vw;
