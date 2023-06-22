@@ -3,9 +3,9 @@ body {
     text-align: center;
     background-image: url('https://www.bbntimes.com/images/articles/global-economy/The_Coming_AI_Singularity_in_2050.jpg');
     background-size: cover;
-    background-position: 80% 20%;
+    background-position:75% 30%;
     background-repeat: no-repeat;
-    padding: 10vw;
+    padding: 20vw;
     margin: 0;
     background-repeat: no-repeat;
     
@@ -49,7 +49,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 4.5vw; /* Increased font-size */
-    padding: 1.5vh 4vw; /* Increased padding */
+    padding: 2vh 4vw; /* Increased padding */
     width: 60vw; /* Adjusted width */
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 3.5vw 3vw 2.5vw rgba(0, 0, 0, 0.63);
@@ -70,7 +70,7 @@ body {
     color: #FFF;
     text-align: left;
     width: 72vw;
-    line-height: 1.25;
+    line-height: 1.3;
     padding: 2vh 1vw;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 4vw;
