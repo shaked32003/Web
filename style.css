@@ -32,15 +32,15 @@ body {
   
   .menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 6.5vw;
-    margin-top: 58vh;
+    gap: 1vw;
+    margin-top: 50vh;
     
   }
   
   .menu-item {
-    margin-bottom: 20vh;
+    margin-bottom: 6vh;
   }
   
   .menu-link {
@@ -49,7 +49,7 @@ body {
     border: 1px ridge #FFF;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 6.5vw; /* Increased font-size */
+    font-size: 5.5vw; /* Increased font-size */
     padding: 1vh 3vw; /* Increased padding */
     width: 50vw; /* Adjusted width */
     background-color: rgba(0, 0, 0, 0.7);
