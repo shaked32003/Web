@@ -40,7 +40,7 @@ body {
   }
   
   .menu-item {
-    margin-bottom: 6vh;
+    margin-bottom: 8vh;
   }
   
   .menu-link {
@@ -50,7 +50,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 6.5vw; /* Increased font-size */
-    padding: 2vh 4vw; /* Increased padding */
+    padding: 1.3vh 4vw; /* Increased padding */
     width: 50vw; /* Adjusted width */
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 3.5vw 3vw 2.5vw rgba(0, 0, 0, 0.67);
