@@ -18,6 +18,3 @@ The website is built using the following technologies and languages:
 
 To view the website, simply open the `index.html` file in a web browser. The website can be accessed on both mobile devices and larger screens. However, please note that the display may not be optimal on larger screens, although the content and functionality will still be accessible.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and use the code for personal or educational purposes.
