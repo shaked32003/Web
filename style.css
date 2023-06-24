@@ -35,7 +35,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 1vw;
-    margin-top: 40vh;
+    margin-top: 37vh;
     
   }
   
@@ -49,8 +49,8 @@ body {
     border: 1px ridge #FFF;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 4.5vw; /* Increased font-size */
-    padding: 1.3vh 2vw; /* Increased padding */
+    font-size: 5vw; /* Increased font-size */
+    padding: 1.3vh 6vw; /* Increased padding */
     width: 50vw; /* Adjusted width */
     background-color: #FFF;
     box-shadow: 3.5vw 3vw 2.5vw rgba(0, 0, 0, 0.67);
