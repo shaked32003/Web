@@ -40,7 +40,7 @@ body {
   }
   
   .menu-item {
-    margin-bottom: 3vh;
+    margin-bottom: 4vh;
   }
   
   .menu-link {
@@ -49,8 +49,8 @@ body {
     border: 1px ridge #FFF;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 6vw; /* Increased font-size */
-    padding: 1.3vh 4vw; /* Increased padding */
+    font-size: 4.5vw; /* Increased font-size */
+    padding: 1.3vh 2vw; /* Increased padding */
     width: 50vw; /* Adjusted width */
     background-color: #FFF;
     box-shadow: 3.5vw 3vw 2.5vw rgba(0, 0, 0, 0.67);
@@ -176,4 +176,5 @@ body {
     object-fit: contain;
     margin-right: 2.5vw;
     height: auto;
+    text-align: left;
   }
