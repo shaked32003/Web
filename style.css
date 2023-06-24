@@ -1,9 +1,9 @@
 body {
     font-family: "Roboto", Arial, sans-serif;
     text-align: center;
-    background-image: url('https://marcusdonald.com/wp-content/uploads/Artificial-intelligence-construction_1_1536x1536.jpg');
+    background-image: url('https://www.bbntimes.com/images/articles/global-economy/The_Coming_AI_Singularity_in_2050.jpg');
     background-size: cover;
-    background-position: 55% 100%;
+    background-position: 75% 100%;
     background-repeat: no-repeat;
     padding: 20vw;
     margin: 0;
@@ -38,7 +38,7 @@ body {
   }
   
   .menu-item {
-    margin-bottom: 4vh;
+    margin-bottom: 4.5vh;
     left: 10%;
   }
   
