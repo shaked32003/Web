@@ -1,12 +1,7 @@
 body {
     font-family: "Roboto", Arial, sans-serif;
     text-align: center;
-    background-image: url('https://www.bbntimes.com/images/articles/global-economy/The_Coming_AI_Singularity_in_2050.jpg');
-    background-size: cover;
-    background-position: 75% 100%;
-    background-repeat: no-repeat;
     padding: 20vw;
-    margin: 0;
     overflow: hidden;
   }
   
@@ -180,3 +175,22 @@ body {
     flex-direction: row;
     justify-content: left;
   }
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
