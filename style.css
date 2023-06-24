@@ -1,14 +1,11 @@
 body {
     font-family: "Roboto", Arial, sans-serif;
     text-align: center;
-    background-image: url('https://www.bbntimes.com/images/articles/global-economy/The_Coming_AI_Singularity_in_2050.jpg');
+    background-image: url('https://marcusdonald.com/wp-content/uploads/Artificial-intelligence-construction_1_1536x1536.jpg');
     background-size: cover;
-    background-position:75% 60%;
+    background-position: 55% 100%;
     background-repeat: no-repeat;
-    padding: 24vw;
-    margin: 0;
-    background-repeat: no-repeat;
-    
+    padding: 20vw;
     margin: 0;
     overflow: hidden;
   }
@@ -36,17 +33,19 @@ body {
     justify-content: center;
     gap: 1vw;
     margin-top: 37vh;
+    margin-right: 37vw;
     
   }
   
   .menu-item {
     margin-bottom: 4vh;
+    left: 10%;
   }
   
   .menu-link {
     color: #000;
     text-decoration: none;
-    
+    left: 10%;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 5vw; /* Increased font-size */
