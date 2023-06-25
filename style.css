@@ -1,14 +1,19 @@
 body {
     font-family: "Roboto", Arial, sans-serif;
     text-align: center;
+    background-image: url('https://www.bbntimes.com/images/articles/global-economy/The_Coming_AI_Singularity_in_2050.jpg');
+    background-size: cover;
+    background-position: 75% 100%;
+    background-repeat: no-repeat;
     padding: 20vw;
+    margin: 0;
     overflow: hidden;
   }
   
   .profile-container {
     position: absolute;
-    top: -13vh;
-    left: -20vw;
+    top: 3vh;
+    left: 1vw;
     width: 25vw;
     height: 25vw;
     border-radius: 100%;
@@ -64,8 +69,8 @@ body {
   .about {
     position: absolute;
     border: 1px solid #000;
-    top: -13vh;
-    left: 7vw;
+    top: 3vh;
+    left: 28vw;
     color: #FFF;
     text-align: left;
     width: 66vw;
@@ -176,42 +181,6 @@ body {
     justify-content: left;
   }
 
-  .video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-  }
-  .video-container video {
-    min-width: 50%;
-    min-height: 50%;
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    margin-left: -200px;
-  }
-  .content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding: 20px;
-  }
-
-  video {
-    margin-left: -340px; /* כאן אתה יכול לשנות את הערך לפי הצורך */
-  }
-
-#video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
+  
 
   
